@@ -1,72 +1,42 @@
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
+<html>
     <head>
-         <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
-        <title>WELCOME</title>
+        <style>
+            body{
+         background-color: pink;
+         margin: 50px;
+        font-family: Arial;
+         color: Black;
+        } 
+        </style>
+        <title>Home</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- HTML is cool
-        -->
-        <style>
-            body {
-                background: Pink;
-                color: purple;
-            }
-            p {
-  font-family: verdana;
-  font-size: 14px;
-}
-          </style>
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <nav>
-            <a href="#">Home</a> </nav>
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
         <h1>Alisson Gossage</h1>
-        <h2>Digit 100</h2>
-        <h3>HTML coding</h3>
-        <h4>Take your time and have fun</h4>
-        <h5>Here are some things to help:</h5>
-        <p>Here is some sample HTML to look at. This is a body paragraph with some
-                <strong>inline</strong> code to feature some text. Here is <a
-                href="https://behrend.psu.edu/penn-state-behrend">a link to an external
-            website</a>.</p>
-        <p>Learn HTML here <a href="https://www.w3schools.com/html/default.asp">w3Schools</a>. 
-            Here is a reference for <a href="https://htmlcolorcodes.com/">color codes you can use for styling</a>.</p>
-        <p>Each p element is a <strong>block</strong> element designed to make a block on the
-            page.</p>
-        <h2>What is HTML good for?????</h2>
-        <p>The next element after this is a ol, or <q><strong>ordered list</strong></q>. It makes a numbered list.</p>
-        <ol>
-            <li>headings!</li>
-            <li>paragraphs!</li>
-            <li>lists!</li>
-            <li>tables!</li>
-            <li>images!</li>
-        </ol>
-        
-        <p>How about we look at an ul element, or <q><strong>unordered</strong></q> list? The code looks very similar to the <q>ordered</q> list. 
-            You have to see the difference by viewing in a web browser.</p>
-        <ul>
-            <li>sun!</li>
-            <li>sky!</li>
-            <li>clouds!</li>
-            <li>dark!</li>
-            <li>moon!</li>
-        </ul>
+        <h2>Digital Media, Arts and Technology</h2>
+        <h3>Penn State Behrend</h3>
+        <header>
+            <nav>
+             <ul>
+             <li>
+            <a href="index.html"> Home </a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li>
+            <a href="gallery.html">Gallery</a></li>
+                
+                </ul>
+            </nav>
+        </header>
+            <h4> About Me</h4>
+            <p> My name is Alisson Gossage, I am currently a freshman at Penn State Behrend and I am majoring in in the Digital Media, Arts, and
+                Technology. </p>
+            <p> Not quite sure what I want to come from this coding experience yet.</p>
+
         <figure>
-            <img src="llama_mp.jpg" width="400"/>
-            <img src="Lily%20of%20the%20valley.jpg" alt="My birth month flower" width="400" height="400"/>
-            <figcaption>My birth month flower and a stylized image of a llama that Dr. B gave us to use</figcaption>
-        </figure> 
+            <img src="../../../../Pictures/Photos%20Library.photoslibrary/resources/derivatives/8/82B86A90-F5D4-46E0-A0CF-8BDD2D7D0BA9_1_105_c.jpeg" alt="Image of Myself" class="picture" />
+        </figure>
     </body>
 </html>
